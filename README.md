@@ -1,6 +1,154 @@
-# Hedera Agentity — Monorepo (Frontend + Backend)
+# 🤖 Agentity
 
-Agentity is a full-stack platform for **registering, simulating, auditing, and executing AI agents** with **verifiable blockchain traceability** and **microtransaction settlement on Hedera**.
+**One-liner:**
+🔐 Trust & Security Infrastructure for AI Agents
+
+<img width="340" height="335" alt="Agentity Favicon" src="https://github.com/user-attachments/assets/49c16133-33b9-4e7e-9d2b-bc455b11de6f" />
+
+---
+
+## 🚀 Project Overview
+
+Agentity is a trust, identity, and execution infrastructure for AI agents interacting with blockchain platforms, smart contracts, and decentralized applications. It embeds verification, compatibility testing, and security checks directly into both AI agents and platforms, enabling safe, autonomous interactions. By combining identity systems, sandbox simulations, and audit mechanisms, Agentity ensures that AI agents and smart contracts can interact securely and reliably.
+
+---
+
+## ⚠️ Trust & Security Gaps in AI + Blockchain
+
+### Trust Issues
+
+Platforms cannot verify AI agent identity, capabilities, or safety.
+
+### Safety Gaps
+
+AI agents cannot reliably assess smart contracts or platform integrity.
+
+### Compatibility Issues
+
+No standard exists to validate agent–platform compatibility.
+
+---
+
+## 💡 Solution
+
+A **trust-first infrastructure layer for AI agents powered by Hedera.**
+
+### Agentic Identification
+
+Dual-layer system for identity, behavior, and reputation scoring.
+
+### Sandbox Testing
+
+Simulates interactions to detect risks before execution.
+
+### Compatibility Audits
+
+Evaluates contracts and platforms for risks and fixes.
+
+---
+
+## 🧩 Product Overview
+
+### Agent Identification & Verification Engine
+
+* Assigns verifiable identities to AI agents
+* Tracks agent behavior over time
+* Generates dynamic reputation scores
+
+
+### Simulation Engine
+
+* Runs containerized sandbox environments
+* Tests agent interactions with smart contracts
+* Produces risk reports and execution outcomes
+
+
+### Audit Engine
+
+* Audits smart contracts and platforms
+* Detects vulnerabilities and incompatibilities
+* Recommends actionable fixes
+
+---
+
+## 🏗️ Architecture
+
+```
+Frontend (React Dashboard)
+        │
+        ▼
+Backend API (Express.js)
+• Agent Registration
+• Identity Management
+• Simulation Tracking
+• Reputation Scoring
+        │
+ ┌──────┴───────────────┐
+ ▼                      ▼
+Sandbox Layer           Blockchain Layer
+(Docker)                (Hedera + Chainlink)
+
+• Agent Simulation      • Verification Logs (HCS)
+• Behavior Testing      • Agent Identity Anchoring
+• Risk Detection        • Payment Infrastructure
+```
+
+---
+
+## 🔗 Hedera Integrations
+
+Agentity leverages Hedera for **trust, transparency, and payment infrastructure**:
+
+### 📜 Hedera Consensus Service (HCS)
+
+* Stores agent verification events (REGISTERED, VERIFIED, FLAGGED, REVERIFIED)
+* Provides tamper-proof and publicly verifiable trust history
+* Enables decentralized auditability of agent activity
+
+
+### 🧾 Per-Agent Topics
+
+* Each AI agent is assigned a dedicated Hedera topic
+* Acts as a decentralized activity ledger
+* Tracks lifecycle events and trust updates over time
+
+
+### 🔍 Mirror Node Integration
+
+* Retrieves agent verification history from Hedera
+* Displays trust timelines in dashboards
+* Enables transparent monitoring of agent activity
+
+
+### 🔄 Scheduled Reverification
+
+* Periodic verification of agents using scheduled logic
+* Supports continuous trust validation
+* Ensures long-term agent reliability
+
+
+### 📊 Trust Score Anchoring
+
+* Trust scores derived from:
+
+  * Behavior logs
+  * Simulation results
+  * Risk indicators
+* Anchored to Hedera-backed verification events
+
+
+### 💳 Hedera Wallet & Payments
+
+* Links AI agents to Hedera wallets
+* Enables:
+
+  * Agent-to-agent payments
+  * Microtransactions
+  * Autonomous task execution
+* Prepares infrastructure for decentralized AI economies
+
+---
+
 
 This repository is a **hackathon-friendly wrapper repo** that contains two projects as **Git submodules**:
 - **Frontend** (React + Vite): `./frontend`
@@ -291,31 +439,29 @@ Backend includes additional setup documentation:
 * Swagger at `/docs` for endpoint exploration/testing ([GitHub][1])
 
 ---
+## 👥 Team
 
-## 🏁 Hackathon Notes / Submission Checklist
-
-* [ ] Live UI link works
-* [ ] Live API link works
-* [ ] Swagger `/docs` loads
-* [ ] Demo account or clear signup/login instructions
-* [ ] Env var checklist included (this README)
-* [ ] “How to run locally” works on a fresh machine
+**Michael** — Full-Stack Engineer (6+ years, Vega IT)
+**Samuel** — Full-Stack Developer (React, Node.js, startup-focused)
+**Esther** — Product Manager / Project Coordinator (HNG Tech)
 
 ---
 
-## 📜 License
+## ✅ Closing
 
-Hackathon project — add a license if required by the event.
+Agentity is building the **trust layer for the future of AI agents**.
 
-```
+By combining:
 
-If you want, I can also generate (copy-paste):
-1) a **root `package.json`** so you can run everything from the repo root (`npm run dev:frontend`, `npm run dev:backend`), and  
-2) a **“Judges Quick Demo”** section that lists exact endpoints to hit in Swagger (register → login → register agent → run simulation → view results) using the backend’s documented routes. :contentReference[oaicite:10]{index=10}
+* Identity and reputation systems
+* Sandbox-based execution testing
+* On-chain verification and transparency
 
-**a.** Want me to add a root `package.json` with scripts to start both apps easily?  
-**b.** Want a “Demo Walkthrough” section with concrete Swagger steps + example request bodies?
-::contentReference[oaicite:11]{index=11}
-```
+Agentity enables a **secure, scalable, and autonomous AI ecosystem** across blockchain platforms.
 
-[1]: https://github.com/Agentity-AI/hederaAgentityBackend "GitHub - Agentity-AI/hederaAgentityBackend · GitHub"
+
+## 🔗 Links
+
+* **Live Demo**: [https://assetoracle-hedera-frontend.vercel.app/](https://hederaagentityfrontend.onrender.com/)
+* **Video Demo**: https://youtu.be
+
