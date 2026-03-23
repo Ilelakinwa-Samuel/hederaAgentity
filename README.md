@@ -463,5 +463,5 @@ Agentity enables a **secure, scalable, and autonomous AI ecosystem** across bloc
 ## 🔗 Links
 
 * **Live Demo**: [https://assetoracle-hedera-frontend.vercel.app/](https://hederaagentityfrontend.onrender.com/)
-* **Video Demo**: https://youtu.be
+* **Video Demo**: [https://youtu.be](https://drive.google.com/file/d/11CopQCT2S3Ef3Y3_UKLUIPqWzrMlembF/view)
 
